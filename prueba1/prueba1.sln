@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedCS", "GettingStartedCS\GettingStartedCS.csproj", "{31EF06E4-18D2-4EF9-9320-49C6FEB6D594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingCollectorCS", "UsingCollectorCS\UsingCollectorCS.csproj", "{7D24AB04-42B9-499A-9759-109B83574135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticsCS", "SemanticsCS\SemanticsCS.csproj", "{1C11B61B-62F9-4C35-A6AD-4CDDE1DB8BA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sintaxis", "Sintaxis", "{FB4C95EA-8689-4E02-8843-E8180A0E2209}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Semántica", "Semántica", "{CFB5E8D9-D5B9-49FC-BC80-22C64931400E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transformaciones", "Transformaciones", "{A9F9FF91-5032-4478-ACBC-6F2E8B658DF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructionCS", "ConstructionCS\ConstructionCS.csproj", "{253AF5F1-EFFF-478C-8E66-148B24D76625}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransformationCS", "TransformationCS\TransformationCS.csproj", "{BB1EDE46-DCA7-49EB-A62F-52E078D2A6D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31EF06E4-18D2-4EF9-9320-49C6FEB6D594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31EF06E4-18D2-4EF9-9320-49C6FEB6D594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31EF06E4-18D2-4EF9-9320-49C6FEB6D594}.Debug|x86.ActiveCfg = Debug|x86
+		{31EF06E4-18D2-4EF9-9320-49C6FEB6D594}.Debug|x86.Build.0 = Debug|x86
+		{31EF06E4-18D2-4EF9-9320-49C6FEB6D594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31EF06E4-18D2-4EF9-9320-49C6FEB6D594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31EF06E4-18D2-4EF9-9320-49C6FEB6D594}.Release|x86.ActiveCfg = Release|x86
+		{31EF06E4-18D2-4EF9-9320-49C6FEB6D594}.Release|x86.Build.0 = Release|x86
+		{7D24AB04-42B9-499A-9759-109B83574135}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{7D24AB04-42B9-499A-9759-109B83574135}.Debug|x86.ActiveCfg = Debug|x86
+		{7D24AB04-42B9-499A-9759-109B83574135}.Debug|x86.Build.0 = Debug|x86
+		{7D24AB04-42B9-499A-9759-109B83574135}.Release|Any CPU.ActiveCfg = Release|x86
+		{7D24AB04-42B9-499A-9759-109B83574135}.Release|x86.ActiveCfg = Release|x86
+		{7D24AB04-42B9-499A-9759-109B83574135}.Release|x86.Build.0 = Release|x86
+		{1C11B61B-62F9-4C35-A6AD-4CDDE1DB8BA0}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{1C11B61B-62F9-4C35-A6AD-4CDDE1DB8BA0}.Debug|x86.ActiveCfg = Debug|x86
+		{1C11B61B-62F9-4C35-A6AD-4CDDE1DB8BA0}.Debug|x86.Build.0 = Debug|x86
+		{1C11B61B-62F9-4C35-A6AD-4CDDE1DB8BA0}.Release|Any CPU.ActiveCfg = Release|x86
+		{1C11B61B-62F9-4C35-A6AD-4CDDE1DB8BA0}.Release|x86.ActiveCfg = Release|x86
+		{1C11B61B-62F9-4C35-A6AD-4CDDE1DB8BA0}.Release|x86.Build.0 = Release|x86
+		{253AF5F1-EFFF-478C-8E66-148B24D76625}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{253AF5F1-EFFF-478C-8E66-148B24D76625}.Debug|x86.ActiveCfg = Debug|x86
+		{253AF5F1-EFFF-478C-8E66-148B24D76625}.Debug|x86.Build.0 = Debug|x86
+		{253AF5F1-EFFF-478C-8E66-148B24D76625}.Release|Any CPU.ActiveCfg = Release|x86
+		{253AF5F1-EFFF-478C-8E66-148B24D76625}.Release|x86.ActiveCfg = Release|x86
+		{253AF5F1-EFFF-478C-8E66-148B24D76625}.Release|x86.Build.0 = Release|x86
+		{BB1EDE46-DCA7-49EB-A62F-52E078D2A6D7}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{BB1EDE46-DCA7-49EB-A62F-52E078D2A6D7}.Debug|x86.ActiveCfg = Debug|x86
+		{BB1EDE46-DCA7-49EB-A62F-52E078D2A6D7}.Debug|x86.Build.0 = Debug|x86
+		{BB1EDE46-DCA7-49EB-A62F-52E078D2A6D7}.Release|Any CPU.ActiveCfg = Release|x86
+		{BB1EDE46-DCA7-49EB-A62F-52E078D2A6D7}.Release|x86.ActiveCfg = Release|x86
+		{BB1EDE46-DCA7-49EB-A62F-52E078D2A6D7}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{31EF06E4-18D2-4EF9-9320-49C6FEB6D594} = {FB4C95EA-8689-4E02-8843-E8180A0E2209}
+		{7D24AB04-42B9-499A-9759-109B83574135} = {FB4C95EA-8689-4E02-8843-E8180A0E2209}
+		{1C11B61B-62F9-4C35-A6AD-4CDDE1DB8BA0} = {CFB5E8D9-D5B9-49FC-BC80-22C64931400E}
+		{253AF5F1-EFFF-478C-8E66-148B24D76625} = {A9F9FF91-5032-4478-ACBC-6F2E8B658DF3}
+		{BB1EDE46-DCA7-49EB-A62F-52E078D2A6D7} = {A9F9FF91-5032-4478-ACBC-6F2E8B658DF3}
+	EndGlobalSection
+EndGlobal
