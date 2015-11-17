@@ -31,8 +31,13 @@ namespace HelloWorld
             var i = 1;
             var list = new List<int>() { 1, 2, 3 };
             var tmp = list.Any(x => x == i);
+            var nuevaPrueba = 1 + 2 + 3 + 4;
+            var prueba2 = new CA(new CB());
         }
     }
+
+    public class CA { public CA(CB _cb) { } }
+    public class CB { }
 }";
             #endregion
 
@@ -48,7 +53,6 @@ namespace HelloWorld
             var mainMethod = root.DescendantNodes().OfType<MethodDeclarationSyntax>().Single().Body;
             IBlockStatement operation = semanticModel.GetOperation(mainMethod) as IBlockStatement;
             IStatement lastStatement = operation.Statements.Last();
-
 
             var variablesDependientes = semanticModel.AnalyzeDataFlow(lastStatement.Syntax).WrittenOutside;
         }
